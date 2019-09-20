@@ -9,6 +9,6 @@ note right
 end note
 
 '!include %dirpath()/alice-bob.iuml
-!include https://github.com/ClicketyClickDK/sandbox/blob/master/plantuml/include/alice-bob.iuml
+!include https://raw.githubusercontent.com/ClicketyClickDK/sandbox/master/plantuml/include/alice-bob.iuml
 
 @enduml
