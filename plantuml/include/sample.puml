@@ -1,0 +1,17 @@
+' File: sample.puml
+' URL: https://mrhaki.blogspot.com/2016/12/plantuml-pleasantness-include-partial.html
+@startuml
+ 
+' Include first section (0-based index) of commons.puml
+!include commons.puml!0
+ 
+' Include section with id mail of commons.puml
+!include commons.puml!mail
+ 
+ 
+[Sample Application] <<Software System>> as SampleApp
+ 
+User --> SampleApp
+SampleApp --> Mail
+ 
+@enduml
