@@ -6,6 +6,6 @@ alice -> bob
 note left Expected title: "Generated 2019-09-xx@hh:mm [https://raw.githubusercontent.com/Clicketyclick/sandboc/include/master/test/main.puml]
 
 '!include %dirpath()/alice-bob.iuml
-!include https://github.com/ClicketyClickDK/sandbox/blob/master/plantuml/include/alice-bob.iuml
+'!include https://github.com/ClicketyClickDK/sandbox/blob/master/plantuml/include/alice-bob.iuml
 
 @enduml
