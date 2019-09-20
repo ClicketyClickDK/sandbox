@@ -1,11 +1,9 @@
 @startuml
-!define ANOTHER_DATE %date("yyyy.MM.dd 'at' HH:mm") [%dirpath()]
-
-Title Generated %date() or ANOTHER_DATE
+title Generated %date() from [%dirpath()]
 alice -> bob
 note right
     Expected title
-    "Generated 2019-09-xx@hh:mm  [https://raw.githubusercontent.com/Clicketyclick/sandboc/include/master/test/main.puml]
+    "Generated 2019-09-xx@hh:mm from [https://raw.githubusercontent.com/Clicketyclick/sandboc/include/master/test/main.puml]
 end note
 
 !include %dirpath()/alice-bob.iuml
